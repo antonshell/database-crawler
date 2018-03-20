@@ -3,8 +3,8 @@
 return [
     'db' => [
         'host' => '127.0.0.1',
-        'dbname' => 'test_db',
+        'dbname' => 'diyprice',
         'username' => 'root',
-        'passwd' => '1',
+        'passwd' => '89104567',
     ]
 ];

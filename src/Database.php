@@ -32,12 +32,6 @@ class Database
     public static function getConnection(){
 
         $dbConfig = Config::get('db');
-        $host = $dbConfig['host'];
-        $dbName = $dbConfig['dbname'];
-        $userName = $dbConfig['username'];
-        $password = $dbConfig['passwd'];
-
-
 
         if(!self::$dbh){
             try {
